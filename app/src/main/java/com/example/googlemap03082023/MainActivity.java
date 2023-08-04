@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 //El punto actual debe tomar el punto siguiente si es posible, caso contrario
                 //regresa a la posición inicial.
 
-                if (i + 1 < marcadores.size() - 1) {
+                if (i + 1 < marcadores.size()) {
                     ejcutar_ws_latlng(marcadores.get(i).getPosition(), marcadores.get(i + 1).getPosition());
                 }
                 else{
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             suma_distancia += Double.parseDouble(jObjectValue.getString("value"));
         }
 
-        txtDistancia.setText("La distancia entre los puntos es: " + suma_distancia.toString() + " metros");
+        txtDistancia.setText("La distancia entre los puntos es: " + suma_distancia.toString() + " m");
         Log.i("RESULTADO_FN", suma_distancia.toString());
         //Toast.makeText(this.getApplicationContext(), "RESULTADO "+ suma_distancia, Toast.LENGTH_SHORT).show();
     }
