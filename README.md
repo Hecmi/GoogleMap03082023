@@ -8,4 +8,5 @@ Capturas actividad finalizada en clase
 Pruebas realizadas en otro emulador y teléfono
 ![PuntosMapa000](https://github.com/Hecmi/GoogleMap03082023/assets/120283562/f59e9033-2b17-4363-a9d0-fdf2db2aa1d8.png)
 
-![PuntosMapa002](https://github.com/Hecmi/GoogleMap03082023/assets/120283562/e0769c1a-3992-49ae-8376-0ea117f01ed5.png)
+![image](https://github.com/Hecmi/GoogleMap03082023/assets/120283562/c2669145-0e35-46b7-8b84-985b6e2c9ccd.png)
+
